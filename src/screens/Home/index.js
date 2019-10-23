@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import {
   View, FlatList, Text, TouchableOpacity,
 } from 'react-native';
-import { Title, Subtitle, Card } from '../../components';
+import { Title, Subtitle, Card ,Button } from '../../components';
 import { Container } from './styles';
 import { api } from '../../services';
 
@@ -30,7 +30,7 @@ function Home() {
         <Card>
           <Title>{item.name}</Title>
           <Subtitle>{item.description}</Subtitle>
-          <Text>{item.made === 1 ? 'feito' : 'Não feito' }</Text>
+          <Text>{item.made === 1 ? 'feito' : 'Não feito'}</Text>
         </Card>
       </View>
     </TouchableOpacity>
