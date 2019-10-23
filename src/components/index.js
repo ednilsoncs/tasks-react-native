@@ -1,3 +1,5 @@
 import Title from './Title';
+import Subtitle from './Subtitle';
+import Card from './Card';
 
-export { Title };
+export { Card, Title, Subtitle };
